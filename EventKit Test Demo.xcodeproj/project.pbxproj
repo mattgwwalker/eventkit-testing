@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,9 @@
 		3410A1B821A8B6EA0000C78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3410A1B621A8B6EA0000C78D /* Main.storyboard */; };
 		3410A1BA21A8B6ED0000C78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3410A1B921A8B6ED0000C78D /* Assets.xcassets */; };
 		3410A1BD21A8B6ED0000C78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3410A1BB21A8B6ED0000C78D /* LaunchScreen.storyboard */; };
-		3410A1C821A8B6EE0000C78D /* EventKit_Test_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410A1C721A8B6EE0000C78D /* EventKit_Test_DemoTests.swift */; };
+		3410A1C821A8B6EE0000C78D /* AccessGrantedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410A1C721A8B6EE0000C78D /* AccessGrantedTest.swift */; };
+		3410A1D321A8B7840000C78D /* EventKitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410A1D221A8B7840000C78D /* EventKitUser.swift */; };
+		3410A1D521A8C8030000C78D /* EventKitUserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410A1D421A8C8030000C78D /* EventKitUserTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +36,10 @@
 		3410A1BC21A8B6ED0000C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3410A1BE21A8B6ED0000C78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3410A1C321A8B6EE0000C78D /* EventKit Test DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EventKit Test DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3410A1C721A8B6EE0000C78D /* EventKit_Test_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKit_Test_DemoTests.swift; sourceTree = "<group>"; };
+		3410A1C721A8B6EE0000C78D /* AccessGrantedTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessGrantedTest.swift; sourceTree = "<group>"; };
 		3410A1C921A8B6EE0000C78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3410A1D221A8B7840000C78D /* EventKitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitUser.swift; sourceTree = "<group>"; };
+		3410A1D421A8C8030000C78D /* EventKitUserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitUserTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				3410A1B921A8B6ED0000C78D /* Assets.xcassets */,
 				3410A1BB21A8B6ED0000C78D /* LaunchScreen.storyboard */,
 				3410A1BE21A8B6ED0000C78D /* Info.plist */,
+				3410A1D221A8B7840000C78D /* EventKitUser.swift */,
 			);
 			path = "EventKit Test Demo";
 			sourceTree = "<group>";
@@ -90,8 +95,9 @@
 		3410A1C621A8B6EE0000C78D /* EventKit Test DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3410A1C721A8B6EE0000C78D /* EventKit_Test_DemoTests.swift */,
+				3410A1C721A8B6EE0000C78D /* AccessGrantedTest.swift */,
 				3410A1C921A8B6EE0000C78D /* Info.plist */,
+				3410A1D421A8C8030000C78D /* EventKitUserTest.swift */,
 			);
 			path = "EventKit Test DemoTests";
 			sourceTree = "<group>";
@@ -154,7 +160,7 @@
 				};
 			};
 			buildConfigurationList = 3410A1AA21A8B6EA0000C78D /* Build configuration list for PBXProject "EventKit Test Demo" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -199,6 +205,7 @@
 			files = (
 				3410A1B521A8B6EA0000C78D /* ViewController.swift in Sources */,
 				3410A1B321A8B6EA0000C78D /* AppDelegate.swift in Sources */,
+				3410A1D321A8B7840000C78D /* EventKitUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3410A1C821A8B6EE0000C78D /* EventKit_Test_DemoTests.swift in Sources */,
+				3410A1C821A8B6EE0000C78D /* AccessGrantedTest.swift in Sources */,
+				3410A1D521A8C8030000C78D /* EventKitUserTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
